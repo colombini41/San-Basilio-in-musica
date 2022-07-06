@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400i&display=swap');
+
+body { background-attachment: fixed; background-size: 100%; font-family: 'Staatliches', cursive; color: white; background-color: black; }
+
+#homepage { background-image: url("../Immagini/SanBasilio/Imuri/Ufficiale.jpg"); background-attachment: fixed; background-size: cover; }
+
+p { font-family: 'Montserrat', sans-serif; }
+
+h1 { font-size: 500%; text-align: center; margin-top: -2%; }
+
+h2 { font-size: 250%; font-family: 'Staatliches', cursive; }
+
+h3 { font-size: 150%; font-family: 'Staatliches', cursive; }
+
+/*------------------------------
+           SITOGRAFIA
+ ------------------------------*/ 
+ 
+ul { color: white; padding: 1%; }
+
+li { padding: 0.3%; }
+
+a { color: white; font-family: 'Montserrat', sans-serif; text-decoration: none; }
+
+/* fine sitografia */
+
+.testo { max-width: 60%; margin-left: 20%; margin-top: 8%; margin-bottom: 8%; }
+
+#secondotesto { margin-top: -0.5%; max-width: 60%; margin-left: 20%; } 
+
+#titoletto { font-size: 250%; text-align: center; margin-top: -5%; }
+
+.altriartisti { font-size: 250%; }
+
+/*------------------------------
+             PUZZLE
+ ------------------------------*/ 
+
+.contenitore_immagine { width: 40%; border: 2px solid white; border-radius: 5px; float: left; }
+
+.immaginepuzzle { margin: 5px 4px 0px 5px; }
+
+#contenitore_puzzle { width: 50%; margin-left: 0%; border: 2px solid white; border-radius: 5px; margin-right: 1%; float: right; }
+
+.puzzle { border-collapse: separate; line-height: 0px; margin: 1%; }
+
+.nascondi { visibility: hidden; }
+
+.button { width: 30%; margin: 5% 0% 0% 5%; border-radius: 5px; padding: 4px 5px; border-color: white; border-style: solid;border-width: 2px; 
+          background-color: black; color: white; height: 36px; font-family: 'Montserrat', sans-serif; }
+
+.button:hover { background-color: white; color: black; }
+
+/* fine puzzle */
+
+/*------------------------------
+             BARRA
+ ------------------------------*/ 
+
+.barra { margin-left: -1%; border-bottom: 2px solid white; position: fixed; width: 105%; top: 0px; background-color:black; z-index:6; }
+
+.barra a { float: left; font-size: 100%; color: white; text-align: right; padding: 14px; text-decoration: none; font-family: 'Staatliches', cursive; }
+
+.sottobarra { float: left; overflow: hidden; }
+
+.sottobarra #Iprotagonisti { font-size: 100%; border: none; outline: none; color: white; padding: 14px 16px; margin: 0; }
+
+.barra a:hover, .sottobarra:hover #Iprotagonisti { background-color: white; color: black; }
+
+.barra a:visited { border-bottom-style: none; }
+
+.elsottobarra { display: none; position: absolute; background-color: white; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+                z-index: 5; margin-top: 48px; }
+
+.elsottobarra a {float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left; background-color: white; }
+
+.elsottobarra a:hover { background-color: #ddd; }
+
+.sottobarra:hover .elsottobarra { display: block; }
+
+.elsottobarra:hover .elsottobarra { display: block; }
+
+
+
+#titolino { background-color: white; color: black; border-right-color: white; border-right-style: solid; border-right-width: medium; 
+            font-family: 'Lora', serif; font-size: 120%; margin-bottom: -1%; margin-top: -0.4% }
+
+#titolino:hover { background-color: white; color: black; }
+
+/* fine barra */
+
+.titolo { text-align:center; font-size: 170%; text-shadow: 1px 1px 5px rgba(150, 150, 150, 1); margin-top: 7%; }
+	
+/*----------------------------------
+              FOOTER
+ ----------------------------------*/ 
+
+
+ footer { margin-left: -1%; bottom: 0; width: 101.6%; border-top: medium solid white; position: relative; background-color: black; }
+  
+ footer p {margin-left: 1%; text-align: center;}
+  
+/*----------------------------------
+        TABELLA FABRIZIO MORO
+ ----------------------------------*/ 
+
+#tabellamoro { width: 100%; font-family: 'Montserrat', sans-serif; }
+
+#tabellamoro th { font-family: 'Staatliches', cursive; font-size: 130%; }
+
+#tabellamoro td { padding: 1%; text-align: center; font-size: 90%; }
+
+#tabellamoro tr:nth-child(even) td:nth-child(1) { background-color: white; color: black; }
+
+#tabellamoro tr:nth-child(even) td { border-top-style: solid; border-top-color: white; border-top-width: 1px;  
+                                     border-bottom-style: solid; border-bottom-color: white; border-bottom-width: 1px; }
+
+/* fine tabella in Fabrizio Moro */
+
+img {max-width: 100%;}
+
+/*---------------------------------
+        IMMAGINI SAN BASILIO
+ ---------------------------------*/ 
+
+#cartinaroma { float: right; margin: -1% 2% 2% 2%; width: 25%; }
+
+#ducecase { float: right; margin: 2% 1% 1% 2%; width: 40%; }
+
+#sgombero { float: right; width: 50%; margin-top: 1%; margin-right: 1%; margin-left: 2%; margin-bottom: 2%; }
+
+#murisanba { float: right; margin: 5% 2% 2% 2%; width: 50%; }   
+
+#bambini { margin-top: 3%; margin-left: 30%; width: 40%; }
+
+#quartetto { float: right; width: 40%; margin: 5% 3% 3% 3%; }   
+
+/*---------------------------------
+            IMMAGINI ULTIMO
+ ---------------------------------*/ 
+
+#ultimo, #tatuaggi { float: right; width: 40%; margin: -3% 0% 0% 2%; }
+
+#pianeti, #favole, #peterpan { float: right; width: 35%; margin: 1% 2% 2% 3%;}
+
+/*-------------------------------------
+        IMMAGINI FABRIZIO MORO
+ --------------------------------------*/ 
+
+#fabrizio { float: right; width: 40%; margin: -1% 1% 1% 3%; }
+
+#concertomoro { float: right; width: 40%; margin: -2% 1% 1% 3%; }
+
+#giovani, #meta, #ognuno, #primo, #tour{ float: right; width: 45%; margin: 2% 2% 2% 3%; }
+
+#puntata { float: right; width: 50%; margin: 1% 0% 2% 2%; }
+
+/*-----------------------------------
+          IMMAGINI MANNARINO
+ ------------------------------------*/ 
+
+#mannarino { float: right; width: 40%; margin: -1% 1% 1% 3%; }
+
+#libro { float: right; width: 20%; height: 10%; margin: -1% 1% 1% 3%; }
+
+#chitarra { float: right; width: 24%; margin: -5% 1% 1% 3%; }
+
+#rai3 { float: right; width: 50%; margin: 0% 1% 1% 2%; }
+
+#apriticielo, #almonte, #corde2013, #corde2015, #supersantos, #bar { float: right; width: 35%; margin: 1% 2% 2% 3%; }
+
+#concerto { width: 70%; margin-right: 15%; margin-left: 10%; margin-top: 3%; margin-bottom: 3%; }
+
+#samuel { float: right; width: 60%; margin: 2% 2% 1% 2%; }
+
+/*-------------------------------------
+         IMMAGINI ALTRI ARTISTI
+ -------------------------------------*/ 
+
+#cugini { float: right; width: 40%; margin: -1% 0% 0% 1%; }
+
+#dorazi { float: right; width: 40%; margin: -2% 0% 0% 1%; }
+
+#zilli { float: right; width: 40%; margin: 3% 1% 2% 2%;  }
+
+/* fine immagini */
+
+/*------------------------------
+            TIMELINE
+ ------------------------------*/ 
+
+* { box-sizing: border-box; }
+
+.timeline { position: relative; max-width: 1200px; margin: 0 auto; z-index: 4; }
+
+.timeline::after { content: ''; position: absolute; width: 6px; background-color: white; top: 0; bottom: 0; left: 50%; margin-left: -3px; }
+ 
+.container { padding: 10px 40px; position: relative; background-color: black; width: 50%; border-radius: 50%; -webkit-transition: -webkit-transform 2s ease; }
+
+.container:hover .contenuti { display: inline; } 
+
+.contenuti { display: none; }
+
+.container::after { content: ''; position: absolute; width: 25px; height: 25px; right: -17px; 
+                    background-color: black; border: 4px solid white; top: 15px; border-radius: 50%; z-index: 1; }
+
+.left { left: 0; }
+
+.right { left: 50%; }
+
+.left::before { content: " "; height: 0; position: absolute; top: 22px; width: 0; z-index: 1; right: 30px;
+                border: medium solid white; border-width: 10px 0 10px 10px; border-color: transparent transparent transparent white; }
+
+.right::before { content: " "; height: 0; position: absolute; top: 22px; width: 0; z-index: 1; left: 30px;
+                 border: medium solid white; border-width: 10px 10px 10px 0; border-color: transparent white transparent transparent; }
+
+.right::after { left: -16px; }
+
+.content { padding: 20px 30px; background-color: black; position: relative; border-radius: 6px; border-style: solid; border-color: white; }
+
+/* fine timeline */
+
+.testo a:hover, footer a:hover { color: black; background-color: white; }
+
+/*------------------------------
+          
+		  MEDIA QUERIES
+		  
+ ------------------------------*/ 
+
+@media screen and (max-width: 1090px) {
+	.titolo { font-size: 140%; margin-top: 10%; }
+}
+
+@media screen and (max-width: 900px) {
+	.titolo { font-size: 110%; margin-top: 13%;	}
+	
+	#alessandro_mannarino .timeline img { display: none; }
+}
+
+@media screen and (max-width: 740px) {
+    
+ .timeline { max-width: 75%; font-size: 80%; line-height: 15px;  }
+	
+ .timeline::after { left: 31px; }
+
+ .container { width: 100%; padding-left: 70px; padding-right: 25px; }
+
+ .container::before { left: 60px; border: medium solid white; border-width: 10px 10px 10px 0; border-color: transparent white transparent transparent; }
+
+ .contenuti { display: inline; }
+ 
+ .left::after, .right::after { left: 15px; }
+
+ .right { left: 0%; }
+
+ p { font-family: 'Montserrat', sans-serif; font-size: 80%;	}
+	
+ h1 { font-size: 320%; text-align: center; margin-top: -5%; }
+	
+ h2 { font-size: 190%; }
+	
+ .altriartisti { font-size: 190%; }
+	
+ h3 { font-size: 115%; }
+	
+ .titolo { font-size: 110%; text-align:center; text-shadow: 1px 1px 5px rgba(150, 150, 150, 1); margin-top: 100px; }
+	
+ #icon { width: 40px;  height: 30px; margin-left: 5%; position: fixed;  z-index: 6; 
+ background-image: url('../Immagini/menù.png'); background-color: black; border: none; } 
+ 
+ #homepage #icon { margin-top: 30px; }
+ 
+ ul li a { font-size: 90%; }
+	
+ ul { font-size: 90%; }
+	
+ .barra { visibility: hidden; position: fixed; top: 100px; left: 2%; width: 98%; margin-bottom: 0; padding: 0; 
+          background-color: black; color: black; border: 3px solid white; border-bottom: 2px solid white; border-top: none; z-index: 5;	}
+	  
+ #titolino { margin-top: 0; }
+	
+ .barra a { float: left; text-align: left; font-size: 100%; background-color: black; width: 100%; padding: 14px; text-decoration: none; 
+            font-family: 'Staatliches', cursive; border-bottom: 1px solid white; } 
+ 
+ .sottobarra {  width: 100%; border-bottom: 1px solid white; }
+ 
+ .elsottobarra { display: none; position: fixed; background-color: white; box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2); z-index: 5; margin-left: 48%; margin-top: 48px; width: 49.5%;}
+
+ .elsottobarra a { float: none; color: black; padding: 14px 16px; text-decoration: none; display: block; text-align: left; 
+                   background-color: white; border-bottom: 1px solid black; height: 49px; }
+ 
+ #Ultimo { border-bottom: none; }
+  
+ .elsottobarra a:hover { background-color: #ddd; }
+	
+ .button {height: 5%; font-size: 60%;}
+	
+ #tabellamoro {font-size: 80%; }
+ 
+ #footer_bio { position: absolute; width: 99.5%; }
+}
+
+@media screen and (max-width: 450px) {
+	
+	p { font-family: 'Montserrat', sans-serif; font-size: 60%; line-height: 15px;	}
+
+    h1 { font-size: 290%; text-align: center; margin-top: -5%; }
+	
+    h2 { font-size: 160%; }
+ 
+	#tabellamoro { font-size: 60%; }
+	
+	.button {height: 5%; font-size: 40%;}
+	
+	.timeline img { display: none; }
+}
+
+
+@media screen and (max-width: 310px) { .button {height: 5%; font-size: 30%; } }
+
+@media screen and (max-width: 250px) { .button {height: 5%; font-size: 20%; } }
+
+@media screen and (max-width: 213px) { .titolo { font-size: 70%; } }
